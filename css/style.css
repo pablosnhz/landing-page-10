@@ -3,8 +3,49 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 
 .pb-6 {
     padding-bottom: 160px;
+}
+
+.p-6 {
+    padding: 60px 40px;
+}
+
+.card {
+    margin-top: 150px;
+}
+
+.bg-secondary {
+    background-color: #204b6d !important;
+}
+
+.btn-primary {
+    background: #03afb2;
+    border: none;
+}
+
+.text-muted {
+    color: #73acd9 !important;
+}
+
+@media (max-width: 768px) {
+    .showcase {
+        height: 100%;
+    }
+    .showcase .col-md-7 {
+        text-align: center;
+    }
+    .pb-6 {
+        padding: 50px 20px;
+    }
+    .showcase .w-75 {
+        margin: 0 auto;
+    }
+    .card {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
 }
